@@ -2,7 +2,6 @@ k=int(input("Ingrese numero de caracteres: "))
 cad=input("Ingrese cadena: ")
 
 cont=0
-i=-1
 palabras=0
 for caracter in cad:
    if caracter != ' ':
@@ -17,4 +16,4 @@ for caracter in cad:
 
 
 print("Hay %d palabras con una longitud de %d caracteres " % (palabras, k ))
-print ("Probando github")
+
